@@ -17,7 +17,7 @@ The New York Times has been tracking and publishing Coronavirus Infections at un
 2. [2_exploratory data_analysis](./2_exploratory_data_analysis.ipynb)
 3. [3_feature_engineering_modeling_conclusions](./3_feature_engineering_modeling_conclusions.ipynb)
 4. [Presentation](./Assets/project_5_college_covid_analysis.pdf)
-5. [Executive Summary](./Assets/Executive_Summary)
+5. [Executive Summary](./Assets/Executive_Summary.md)
 
 
 ## Datasets and sources

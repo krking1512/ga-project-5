@@ -37,10 +37,10 @@ Other notable features include engineered features created with the categorical 
 
 Most Positive Correlations            
 
-![Postive Correlations](.././Images/correlation_top.png)
+![Postive Correlations](.././images/correlation_top.png)
 
 Most Negative Correlations
-![Negative Correlations](.././Images/correlation_tail.png)
+![Negative Correlations](.././images/correlation_tail.png)
 
 
 ---

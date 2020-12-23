@@ -33,9 +33,11 @@ Total enrollment correlated strongly with the overall case count, but not as str
 
 Other notable features include engineered features created with the categorical features included in the initial dataset. The second most correlated feature after processing the categorical features was engineered using a class plan column indicating colleges would primarily have courses in person and a column indicating state had reopened bars, we labeled this feature 'packed_bars.' This indicates that colleges that were planning to have in-person classes in a state where bars were reopened in mid-August saw higher infection rates overall. The two heatmaps included below show the top positive and negative correlations between the features and the target variable 'greater_than_five,' indicting a college has had cases exceeding 5% of the total enrollment.
 
-Most Positive Correlations             |  Most Negative Correlations
-:-------------------------:|:-------------------------:
-![Postive Correlations](.././Images/correlation_top.png)  |  ![Negative Correlations](.././Images/correlation_bottom.png)
+Most Positive Correlations
+![Postive Correlations](.././Images/correlation_top.png)  
+
+Most Negative Correlations
+![Negative Correlations](.././Images/correlation_tail.png)
 
 
 ---

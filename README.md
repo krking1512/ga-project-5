@@ -13,10 +13,10 @@ What attributes of colleges contribute to an increased probability that the camp
 The New York Times has been tracking and publishing Coronavirus Infections at universities in the United States throughout the pandemic of 2020. As students begin to decide whether or not to begin and attend college in-person or remotely, and as colleges set policies for physical classes and sporting events, understanding how the college's attributes affected the Coronavirus case counts in the Fall 2020 may help students and colleges make informed decisions about the Spring semester of 2021. Our project seeks to understand how various admissions statistics, state precautions, and college attributes relate to the infection rates. Starting with the list of universities reported by the New York Times, information was pulled from the Integrated Postsecondary Education Data System, including Admission Test scores, Football conference memberships, applicant pool sizes, and pre-2020 distance learning offerings. Additional data was pulled and merged from the Kaiser Family Foundation that lists the college's intended plan for the Fall of 2020.
 
 ## Table of Contents
-1. intro_data_merging_cleaning :
-2. EDA Notebook :
-3. Modeling :
-4.
+1. [1_intro_data_merging_cleaning](./1_intro_data_merging_cleaning.ipynb)
+2. [2_exploratory data_analysis](./2_exploratory_data_analysis.ipynb)
+3. [3_feature_engineering_modeling_conclusions](./3_feature_engineering_modeling_conclusions.ipynb)
+4. [Presentation](./Assets/project_5_college_covid_analysis.pdf)
 5. [Executive Summary](./Assets/Executive_Summary)
 
 
@@ -33,7 +33,7 @@ The New York Times has been tracking and publishing Coronavirus Infections at un
 
 ## Data Cleaning and Ingestion
 The Datasets above were cleaned to exclude null values for test scores and case counts. Schools without test score data were largely community colleges where the student population often lives within the community full-time. After merging all of the datasets, the final dataset included 900 Universities from across the United States. From the New York Times case counts, a new column was engineered based on the total enrolled population of students and professors to indicate whether or not the total case count was greater than 5% of the enrolled total. This column was used as the target column for our models to predict. The histogram below shows the distribution of the engineered column 'percent_infected.' We decided to explore the 5% cut off in part due to the distribution of data shown below.
-![Percent Infected Rate Distribution]('./Images/distribution_of_university_infection_rates_histogram.png')
+![Percent Infected Rate Distribution](./images/distribution_of_university_infection_rates_histogram.png)
 
 
 ---
